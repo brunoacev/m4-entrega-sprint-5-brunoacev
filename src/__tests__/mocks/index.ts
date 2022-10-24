@@ -105,16 +105,9 @@ export const mockedScheduleInvalidDate : IScheduleRequest = {
     userId: ""
 }
 
-export const mockedScheduleInvalidHourLess8 : IScheduleRequest = {
+export const mockedScheduleInvalidHour : IScheduleRequest = {
     date: "2022/08/17",
     hour: "5:30",
-    propertyId: "",
-    userId: ""
-}
-
-export const mockedScheduleInvalidHourMore18 : IScheduleRequest = {
-    date: "2022/08/17",
-    hour: "18:30",
     propertyId: "",
     userId: ""
 }
